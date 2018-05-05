@@ -13,7 +13,6 @@
 }
 .black-background {
   background-color: rgb(50,50,50);
-  height: 120px;
 }
 .lead {
   color: #aba000ff;
@@ -21,12 +20,18 @@
 }
 
 .links-bar {
-  height: 120px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   font-size: 30px;
   font-variant: small-caps;
+}
+
+.links-bar>div {
+  border-right: 2px dashed #aba000ff;
+}
+
+.links-bar div:last-child {
+  border: none;
 }
 
 .style-above {
@@ -50,7 +55,7 @@
 
 .waist-background {
   background-color: #ffffff;
-  height: 360px;
+  /* height: 360px; */
 }
 
 .waist-text {
@@ -60,9 +65,9 @@
 .icon-container {
   background-color: #2f2f2fff;
   border-radius: 100px;
-  width: 120px;
+  width: 160px;
   margin: 0 auto;
-  height: 120px;
+  height: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,7 +75,7 @@
 }
 
 .icon-container>img {
-  width: 50px;
+  width: 60px;
   height: auto;
 }
 
@@ -86,7 +91,7 @@
   position: absolute;
   margin: 0;
   width: 50px;
-  right: -90%;
+  right: -60%;
   top: 22%;
   font-size: 36px;
   color: #aba000ff;
@@ -158,4 +163,13 @@ label {
 
 input {
   width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .dotted-icon {
+    display: none;
+  }
+  .links-bar>div {
+    border: none;
+  }
 }

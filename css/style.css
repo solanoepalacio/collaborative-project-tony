@@ -1,11 +1,28 @@
 #home {
-  background: url("../images/jeans_header.jpg") no-repeat fixed center;
+  background: url("../images/jeans_header.jpg") no-repeat center;
   background-size: cover;
-  /* height: 1200px; */
-  margin-top: 5px}
+  height: 600px;
+  margin-top: 5px
+}
 
-.headline>h1 {
-  line-height: 200px ;
-  margin-top: 100px ;
-  align-content: center;
+.headline {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.black-background {
+  background-color: rgb(50,50,50);
+  height: 120px;
+}
+.lead {
+  color: #aba000ff;
+  font-variant: small-caps;
+}
+
+.links-bar {
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

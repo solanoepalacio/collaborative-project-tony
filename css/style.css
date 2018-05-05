@@ -20,6 +20,7 @@
 }
 
 .links-bar {
+  padding: 36px 0;
   display: flex;
   align-items: center;
   font-size: 30px;
@@ -170,6 +171,8 @@ input {
     display: none;
   }
   .links-bar>div {
+    padding-top: 0;
+    padding-bottom: 0;
     border: none;
   }
 }

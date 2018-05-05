@@ -45,6 +45,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .icon-container>img {
@@ -58,4 +59,15 @@
 
 .text-container>.highlight {
   color: #aba000ff;
+}
+
+.dotted-icon {
+  position: absolute;
+  margin: 0;
+  width: 50px;
+  right: -90%;
+  top: 22%;
+  font-size: 36px;
+  color: #aba000ff;
+
 }

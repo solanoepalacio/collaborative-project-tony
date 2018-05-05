@@ -25,6 +25,27 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+.style-above {
+  font-size: 36px;
+  font-variant: small-caps;
+  color: #aba000ff;
+}
+#waist {
+    padding-bottom: 72px ;
+    padding-top: 48px ;
+}
+#bestFit {
+    background-color: #eeeeee ;
+    padding-bottom: 72px ;
+    padding-top: 96px ;
+}
+
+#bestFit h1 {
+  padding-bottom: 24px ;
 }
 
 .waist-background {
@@ -72,9 +93,6 @@
 
 }
 
-.bestFit {
-  background-color: #eeeeee ;
-}
 .jeans-images {
   background-size: cover;
   height: 400px;
@@ -91,6 +109,10 @@
 }
 .jeans-straight {
   background: url("../images/jeans3.jpeg") no-repeat center;
+}
+
+.jeans-footer {
+  padding-top: 24px ;
 }
 
 .dash-color {

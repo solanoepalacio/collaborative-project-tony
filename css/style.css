@@ -57,7 +57,7 @@
   padding: 20px 0;
 }
 
-.text-container>.highlight {
+.highlight {
   color: #aba000ff;
 }
 
@@ -98,4 +98,42 @@
 }
 .small-caps {
   font-variant: small-caps;
+}
+
+#contact {
+  /* height: 500px; */
+  padding: 36px 0;
+  color: white;
+  background: url('../images/jeanstexture.jpg') center;
+}
+
+#contact p {
+  padding: 10px 9%;
+  font-size: 20px;
+}
+
+.register {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.register-btns {
+  margin: 36px 16px;
+  width: auto;
+}
+
+.register-btn {
+  font-size: 36px;
+}
+
+form {
+  padding: 0 9%;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 100%;
 }

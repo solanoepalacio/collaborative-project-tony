@@ -26,3 +26,12 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.waist-background {
+  background-color: #ffffff;
+  height: 360px;
+}
+
+.waist-text {
+  padding: 36px 0px ;
+}

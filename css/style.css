@@ -35,3 +35,27 @@
 .waist-text {
   padding: 36px 0px ;
 }
+
+.icon-container {
+  background-color: #2f2f2fff;
+  border-radius: 100px;
+  width: 120px;
+  margin: 0 auto;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container>img {
+  width: 50px;
+  height: auto;
+}
+
+.text-container {
+  padding: 20px 0;
+}
+
+.text-container>.highlight {
+  color: #aba000ff;
+}

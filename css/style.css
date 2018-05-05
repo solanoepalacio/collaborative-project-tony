@@ -71,3 +71,31 @@
   color: #aba000ff;
 
 }
+
+.bestFit {
+  background-color: #eeeeee ;
+}
+.jeans-images {
+  background-size: cover;
+  height: 400px;
+  margin-top: 5px;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+}
+.jeans-slim {
+  background: url("../images/jeans1.jpeg") no-repeat center;
+}
+.jeans-skinny {
+  background: url("../images/jeans2.jpeg") no-repeat center;
+}
+.jeans-straight {
+  background: url("../images/jeans3.jpeg") no-repeat center;
+}
+
+.dash-color {
+  color: #aba000ff ;
+}
+.small-caps {
+  font-variant: small-caps;
+}
